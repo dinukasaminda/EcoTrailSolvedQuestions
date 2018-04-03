@@ -1,4 +1,4 @@
-var s = "2b90bac69c419036ef21add9c2a69100";
+var s = ""; // puzzl below code
 var sDictionry = s.split("");
 
 var list = [
