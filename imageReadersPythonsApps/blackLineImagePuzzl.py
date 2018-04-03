@@ -19,3 +19,7 @@ for j in range(0,height):
     if marks > 90 :
         row +=1
 im.save("alive_parrot.png") 
+
+'''
+see the output image to get key
+'''
