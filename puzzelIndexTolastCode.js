@@ -1,6 +1,8 @@
 var s = ""; // puzzl below code
 var sDictionry = s.split("");
 
+// change list array using output of the python programm
+
 var list = [
   7,
   2,
