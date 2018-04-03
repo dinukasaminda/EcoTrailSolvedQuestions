@@ -12,17 +12,17 @@ const rl = readline.createInterface({
 });
 
 var data1 = {
-  email: "saranathinfo@gmail.com",
-  key: "d3a34f2c5e00bb67ba13c4e970f5ef51"
+  email: "xxxxxxxxxx@gmail.com",
+  key: ""
 };
 var data2 = {
-  email: "saranathinfo@gmail.com",
-  key: "d3a34f2c5e00bb67ba13c4e970f5ef51",
+  email: "xxxxxxxxxx@gmail.com",
+  key: "",
   answer: ""
 };
 var data = data1;
 var token1 =
-  "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJxdWVzdGlvbiI6IjAxLUxNSy03IiwiZXhwIjoxNTIxMjg4NDIzLCJpYXQiOjE1MjEyODgzOTMsImVtYWlsIjoibmFydGhhbmFqQGdtYWlsLmNvbSIsImtleSI6IjQ2ODNlNzM5MzUwNjQ5YmRmMjA5YzQ3ZGE2YjEzYjViIn0.5j_fP0kZjSmKNhVe_7dC4U74bS2fn16U7sZE5s_Tp8c";
+  "";
 
 function recrt1(auth) {
   rl.question("What do you think of Node.js? ", answer1 => {
@@ -34,7 +34,7 @@ function recrt1(auth) {
         uri: "http://api.ecotrail.gdgsrilanka.org/",
         method: "POST",
         body: JSON.stringify({
-          email: "saranathinfo@gmail.com",
+          email: "xxxxxxxxxxxxxxxx@gmail.com",
           key: "d3a34f2c5e00bb67ba13c4e970f5ef51",
           answer: answer1
         }),
